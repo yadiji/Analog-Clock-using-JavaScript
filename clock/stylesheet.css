@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body {
+  background-color: powderblue;
+}
+
+
+
+.clock{
+	height:500px;
+	width:500px;
+	border-radius: 50%;
+	background:url('clock-2.png') no-repeat;
+	background-size: cover;
+	position: center;
+	border: 10px solid #FF7F50;
+	margin:auto;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: -2px 2px 0 #FF6347,inset 0 0 20px rgba(0,0,0,0.9);
+}
+
+.twelve{
+	position:absolute;
+	width:3px;
+	height:15px;
+	background: #111111;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:0 auto;
+}
+
+.three{
+	position: absolute;
+	width:15px;
+	height:3px;
+	background:#111111;
+	top:0;
+	bottom:0;
+	right:0;
+	margin:auto 0;
+}
+
+.six{
+	position:absolute;
+	width:3px;
+	height: 15px;
+	background:#111111;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0 auto;
+
+}
+
+.nine{
+	position: absolute;
+	width:15px;
+	height: 3px;
+	background:#111111;
+	top:0;
+	bottom:0;
+	left:0;
+	margin:auto 0;
+}
+
+.center{
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:#FF6347;
+	margin:auto;
+}
+
+#hours{
+	width:6px;
+	height:95px;
+	background:#000;
+	position: absolute;
+	top:0;
+	bottom:95px;
+	right:0;
+	left:0;
+	margin:auto;
+	-webkit-transform-origin: bottom;
+
+}
+
+#minutes{
+	height:170px;
+	width:2px;
+	position:absolute;
+	top:0;
+	bottom:170px;
+	right:0;
+	left:0;
+	margin:auto;
+	background:#000;
+	-webkit-transform-origin:bottom;
+
+}
+
+#seconds {
+ 	height: 180px;
+ 	width: 2px;
+	position: absolute;
+  	left: 0;
+  	right: 0;
+  	bottom: 180px;
+  	top: 0px;
+  	margin: auto;
+  	background: #000;
+  	-webkit-transform-origin: bottom;
+  	background: #ff4136;
+}
